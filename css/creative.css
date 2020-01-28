@@ -3982,6 +3982,10 @@ input[type="button"].btn-block {
   white-space: nowrap;
 }
 
+.navbar-brand img {
+  width:100px;
+}
+
 .navbar-brand:hover, .navbar-brand:focus {
   text-decoration: none;
 }
@@ -4116,6 +4120,10 @@ input[type="button"].btn-block {
   .navbar-expand-lg > .container-fluid {
     padding-right: 0;
     padding-left: 0;
+  }
+
+  #mainNav .navbar-brand img {
+    width:75px;
   }
 }
 
@@ -9649,6 +9657,7 @@ hr.muted {
   #mainNav .navbar-brand:hover {
     color: #fff;
   }
+
   #mainNav .navbar-nav .nav-item .nav-link {
     color: rgba(255, 255, 255, 0.7);
     padding: 0 1rem;
